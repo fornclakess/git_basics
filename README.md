@@ -4,6 +4,7 @@ spam boiiii
 commands used till now:
 
 cmd to check if process is running: eval "$(ssh-agent -s)"
+cmd to check if ssh connection is established: ssh -T git@github.com
 connecting git to github and autheticating device+
 1.key generation
 cmd: ssh-keygen [ -tb rsa 4096] (optional to specify the algorithm but works with ssh-keygen too)
@@ -24,6 +25,7 @@ local to server:
 4. git status
 5. git remote add origin git@github.com:fornclakess/python_code.git
 6. git remote -v (to check if and where it's connected for fetch and push)
+7. repeat regular steps(status,add,commit,push)
 
 
 
