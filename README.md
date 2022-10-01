@@ -1,5 +1,4 @@
 # python_code
-spam boiiii
 
 commands used till now:
 
