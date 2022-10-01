@@ -23,7 +23,9 @@ local to server:
 2. open bash inside
 3. git init (for initialisation of folder as git repo)
 4. git status
-5. git remote add origin git@github.com:fornclakess/python_code.git
+5. git remote add origin <ssh/https link>
+to remove: git remote remove origin  
+to replace: git remote set-url origin <ssh Link>
 6. git remote -v (to check if and where it's connected for fetch and push)
 7. repeat regular steps(status,add,commit,push)
 
@@ -36,3 +38,11 @@ server to local:
 3. git commit -m <message>//(commits changes to tracking)
 4. git push //(commits changes to server/local system)
 
+//local ------> server on branch main
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin <ssh link>
+git push -u origin main
+ 
