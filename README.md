@@ -36,3 +36,11 @@ server to local:
 3. git commit -m <message>//(commits changes to tracking)
 4. git push //(commits changes to server/local system)
 
+//local ------> server on branch main
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin <ssh link>
+git push -u origin main
+ 
