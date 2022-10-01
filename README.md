@@ -24,7 +24,8 @@ local to server:
 3. git init (for initialisation of folder as git repo)
 4. git status
 5. git remote add origin <ssh/https link>
-to remove: git remote remove origin
+to remove: git remote remove origin  
+to replace: git remote set-url origin <ssh Link>
 6. git remote -v (to check if and where it's connected for fetch and push)
 7. repeat regular steps(status,add,commit,push)
 
