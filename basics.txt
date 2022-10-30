@@ -11,7 +11,7 @@ cmd: ssh-keygen [ -tb rsa 4096] (optional to specify the algorithm but works wit
 3.Copy private key to ssh-agent by following command:
 cmd: ssh-add ~/.ssh/id_rsa     (id_rsa is the file name generated after running keygen cmd for priv key)  //.pub is public key
 4. set global variables for username and email:
-cmd: git config --global user.email "s.ashutosh4490@gmail.com" 
+cmd: git config --global user.email "<gmail>" 
 cmd: git config --global user.name "fornclakess"
 git config --list --show-origin
 
