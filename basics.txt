@@ -13,6 +13,9 @@ cmd: ssh-add ~/.ssh/id_rsa     (id_rsa is the file name generated after running 
 4. set global variables for username and email:
 cmd: git config --global user.email "s.ashutosh4490@gmail.com" 
 cmd: git config --global user.name "fornclakess"
+git config --list --show-origin
+
+
 5.(optional) if not on main brach, cmd to rename local branch(i.e. master) to match that of github's(main)
 cmd: git branch -m master main
 
