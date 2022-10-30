@@ -21,7 +21,7 @@ cmd: git branch -m master main
 
 
 local to server:
-1. create a folder named "itna lodu kyu ha tu kishan"
+1. create a folder named <filename>
 2. open bash inside
 3. git init (for initialisation of folder as git repo)
 4. git status
@@ -31,6 +31,8 @@ to replace: git remote set-url origin <ssh Link>
 6. git remote -v (to check if and where it's connected for fetch and push)
 7. repeat regular steps(status,add,commit,push)
 
+
+for tracking : git log
 
 
 server to local:
